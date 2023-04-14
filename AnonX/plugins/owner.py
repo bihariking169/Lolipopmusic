@@ -23,7 +23,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🌹", url=f"https://t.me/B_R_A_N_D_E_D_K_I_N_G")
+                        "🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🌹", url=f"https://t.me/BRANDRD_21")
                 ]
             ]
         ),
@@ -41,7 +41,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌹𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🌹", url=f"https://t.me/B_R_A_N_D_E_D_K_I_N_G")
+                        "🌹𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🌹", url=f"https://t.me/BRANDRD_21")
                 ]
             ]
         ),
@@ -111,7 +111,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/WCGKING/BRANDED-MUSIC")
+                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDED_LINK")
                 ]
             ]
         ),
@@ -129,7 +129,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/WCGKING/BRANDED-MUSIC")
+                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"")
                 ]
             ]
         ),
