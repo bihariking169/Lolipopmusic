@@ -129,7 +129,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"")
+                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDED_LINK")
                 ]
             ]
         ),
@@ -147,7 +147,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/WCGKING/BRANDED-MUSIC")
+                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDED_LINK")
                 ]
             ]
         ),
