@@ -47,13 +47,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🍒𝐆𝐫𝐨𝐮𝐩🍒", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🏠𝐎𝐟𝐟𝐢𝐜𝐞🏠", url=f"https://t.me/BRANDED_LINK",
+                text="🏠𝐎𝐟𝐟𝐢𝐜𝐞🏠", url=f"https://t.me/BRANDRD_BOT",
             )
         ],
         [
             InlineKeyboardButton(
                 text="🌱𝐑𝐞𝐩𝐨🌱",
-                url=f"https://t.me/BRANDRD_21",
+                url=f"https://t.me/B_R_A_N_D_E_D_K_I_N_G",
             )
         ],
      ]
