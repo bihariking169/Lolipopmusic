@@ -56,11 +56,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/BRANDED_BOT"
+    "SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT"
 )  # Example:- https://t.me/vip_creators
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/group1loki"
-)  # Example:- https://t.me/tg_friendss
+)  # Example:- https://t.me/group1loki
 SUPPORT_HEHE = SUPPORT_GROUP
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -128,7 +128,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 # Refer to https://i.postimg.cc/Bbg3LQTG/image.png
 SET_CMDS = getenv("SET_CMDS", False)
 
-# You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
+# You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @BRANDEDSTRINGSESSION_BOT
 STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -159,11 +159,11 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "1https://te.legra.ph/file/7a15164b816f55b5b9923.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ee1478fe887dc2a16dac7.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/2e2f78610814092d61103.jpg",
+    "https://te.legra.ph/file/ad476fc51ccd3907096d8.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
