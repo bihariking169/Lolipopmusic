@@ -23,7 +23,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🌹", url=f"https://t.me/BRANDRD_21")
+                        "🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🌹", url=f"https://t.me/BRANDEDKING82")
                 ]
             ]
         ),
@@ -41,7 +41,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌹𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🌹", url=f"https://t.me/BRANDRD_21")
+                        "🌹𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🌹", url=f"https://t.me/BRANDEDKING82")
                 ]
             ]
         ),
@@ -67,7 +67,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𓆩𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚𓆪‌⏤͟✨❤️🥀", url=f"https://t.me/branded_21")
+                        "𓆩𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚𓆪‌⏤͟✨❤️🥀", url=f"https://t.me/BRANDEDKING82")
                 ]
             ]
         ),
@@ -92,7 +92,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𓆩𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚𓆪‌⏤͟✨❤️🥀", url=f"https://t.me/branded_21")
+                        "𓆩𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚𓆪‌⏤͟✨❤️🥀", url=f"https://t.me/BRANDEDKING82")
                 ]
             ]
         ),
@@ -111,7 +111,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDED_LINK")
+                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDRD_BOT")
                 ]
             ]
         ),
@@ -129,7 +129,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDED_LINK")
+                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDRD_BOT")
                 ]
             ]
         ),
@@ -147,7 +147,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDED_LINK")
+                        "🌱𝐑𝐞𝐩𝐨🌱", url=f"https://t.me/BRANDRD_BOT")
                 ]
             ]
         ),
