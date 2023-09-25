@@ -38,4 +38,3 @@ for filename in os.listdir(r"./strings/langs/"):
         for item in languages["en"]:
             if item not in languages[language_name]:
                 languages[language_name][item] = languages["en"][item]
-
