@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", " "))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙱𝚁𝙰𝙽𝙳𝙴𝙳𓆩🇽𓆪𝙺𝙷𝚄𝚂𝙷𝙸𓆩🇽𓆪𝙼𝚄𝚂𝙸𝙲")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙱𝚁𝙰𝙽𝙳𝙴𝙳𓆩🇽𓆪𝙼𝚄𝚂𝙸𝙲")
 
 # Your User ID.
 OWNER_ID = list(
@@ -57,9 +57,9 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT"
-)  # Example:- https://t.me/vip_creators
+)  # Example:- https://t.me/BRANDRD_BOT
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/group1loki"
+    "SUPPORT_GROUP", "https://t.me/BRANDED_WORLD"
 )  # Example:- https://t.me/group1loki
 SUPPORT_HEHE = SUPPORT_GROUP
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
