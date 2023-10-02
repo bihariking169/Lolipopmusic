@@ -1,8 +1,12 @@
 from typing import Union
-
+import re
+import os
+from os import getenv
+from dotenv import load_dotenv
+from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
 import config
+from config import GROUP_USERNAME, CHANNEL_USERNAME
 
 
 def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
@@ -15,7 +19,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="★ ʜᴇʟᴘ ★",
+                text="★ ꜰᴇᴀᴛᴜʀᴇꜱ ★",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -25,35 +29,32 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
      ]
     return buttons
 
+#extra shit
+BOT_USERNAME = ("{BOT_USERNAME}")
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
+    global GROUP_USERNAME
+    global CHANNEL_USERNAME
     buttons = [
         [
             InlineKeyboardButton(
                 text="★ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ★",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
+        
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴏᴡɴᴇʀ ★", user_id=OWNER
+                text="★ ʜᴇʟᴘ ★", url=f"https://t.me/{CHANNEL_USERNAME}",
             ),
+        
             InlineKeyboardButton(
-                text="★ ʜᴇʟᴘ ★", callback_data="settings_back_helper"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="★ ɢʀᴏᴜᴘ ★", url=config.SUPPORT_GROUP
+                text="★ ꜱᴇᴛᴛɪɴɢꜱ ★", url=f"https://t.me/{GROUP_USERNAME}",
             ),
-            InlineKeyboardButton(
-                text="★ ᴄʜᴀɴɴᴇʟ ★", url=f"https://t.me/BRANDRD_BOT",
-            )
         ],
         [
             InlineKeyboardButton(
-                text="★ ʀᴇᴘᴏ ★",
-                url=f"https://github.com/KrishnaxMusic/BRANDED-MASTI",
+                text="★ ꜰᴇᴀᴛᴜʀᴇꜱ ★", callback_data="settings_back_helper"
             )
         ],
      ]
