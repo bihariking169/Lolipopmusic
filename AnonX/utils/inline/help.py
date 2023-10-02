@@ -91,11 +91,11 @@ def help_back_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    text=_["ʙᴀᴄᴋ_BUTTON"],
+                    text=_["BACK_BUTTON"],
                     callback_data=f"settings_back_helper",
                 ),
                 InlineKeyboardButton(
-                    text=_["ᴄʟᴏꜱᴇ_BUTTON"], callback_data=f"close"
+                    text=_["CLOSE_BUTTON"], callback_data=f"close"
                 )
             ]
         ]
