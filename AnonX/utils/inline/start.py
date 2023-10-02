@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="☆ 𝐀𝐝𝐝 𝐌𝐞 𝐌𝐨𝐢 𝐋𝐮𝐯 ☆",
+                text="★ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ★",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🎭 𝐇𝐞𝐥𝐩 🎭",
+                text="★ ʜᴇʟᴘ ★",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="🕹️ 𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬 🕹️", callback_data="settings_helper"
+                text="★ ꜱᴇᴛᴛɪɴɢꜱ ★", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,30 +30,30 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="☆ 𝐀𝐝𝐝 𝐌𝐞 𝐌𝐨𝐢 𝐋𝐮𝐯 ☆",
+                text="★ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ★",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="📍𝐎𝐰𝐧𝐞𝐫📍", user_id=OWNER
+                text="★ ᴏᴡɴᴇʀ ★", user_id=OWNER
             ),
             InlineKeyboardButton(
-                text="🎭 𝐇𝐞𝐥𝐩 🎭", callback_data="settings_back_helper"
+                text="★ ʜᴇʟᴘ ★", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🍒𝐆𝐫𝐨𝐮𝐩🍒", url=config.SUPPORT_GROUP
+                text="★ ɢʀᴏᴜᴘ ★", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🏠𝐎𝐟𝐟𝐢𝐜𝐞🏠", url=f"https://t.me/BRANDRD_BOT",
+                text="★ ᴄʜᴀɴɴᴇʟ ★", url=f"https://t.me/BRANDRD_BOT",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🌱𝐑𝐞𝐩𝐨🌱",
-                url=f"https://t.me/B_R_A_N_D_E_D_K_I_N_G",
+                text="★ ʀᴇᴘᴏ ★",
+                url=f"https://github.com/KrishnaxMusic/BRANDED-MASTI",
             )
         ],
      ]
