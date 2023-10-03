@@ -265,7 +265,7 @@ async def gen_qthumb(videoid, chat_id):
         try:
             draw.text(
                 (25, 0.1),
-                "VIP  MUSIC",
+                "BRANDED KING  MUSIC",
                 fill="white",
                 stroke_width=5,
                 stroke_fill="black",
