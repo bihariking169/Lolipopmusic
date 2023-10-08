@@ -15,7 +15,7 @@ def song_markup(_, vidid):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 𝐋𝐈𝐅𝐄𝐋𝐈𝐍𝐄 🥀", url=f"{config.SUPPORT_GROUP}",
+                text="🥀 𝐋𝐈𝐅𝐄𝐋𝐈𝐍𝐄 🥀", url=f"https://t.me/@lll_kitkat_lll",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"
